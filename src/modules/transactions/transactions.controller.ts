@@ -14,7 +14,6 @@ import { TransactionsService } from './services/transactions.service';
 import { CreateTransactionDto } from './dto/create-transaction.dto';
 import { UpdateTransactionDto } from './dto/update-transaction.dto';
 import { ActtiveUserId } from 'src/shared/decorators/ActiveUserId';
-import { STATUS_CODES } from 'http';
 
 @Controller('transactions')
 export class TransactionsController {
